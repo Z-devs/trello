@@ -35,21 +35,21 @@ body {
   font-size: 1.1rem;
 }
 
-.lists {
+.boxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
 }
 
-.lists > * {
+.boxes > * {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   margin-left: 10px;
 }
 
-.lists::after {
+.boxes::after {
   content: '';
   -webkit-box-flex: 0;
       -ms-flex: 0 0 10px;
@@ -73,6 +73,7 @@ body {
   font-weight: bold;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  cursor: pointer;
 }
 
 .list footer {
@@ -108,4 +109,4 @@ body {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="ui">
         <nav class="navbar app">App bar</nav>
-        <nav class="navbar board">Board bar</nav>
-        <div class="lists">
-            <div class="list">
-                <header>List header</header>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet</li>
-                </ul>
-                <footer>Add a card...</footer>
-            </div>
+        <nav class="navbar board">
+            <form class="form-inline">
+                <button id="button" class="btn btn-sm btn-primary" type="button">Add list</button>
+              </form>
+        </nav>
+        <div id="boxes" class="boxes">
         </div>
-    </div>    
+    </div>  
+    <script src="script.js"></script>
 </body>
 </html>

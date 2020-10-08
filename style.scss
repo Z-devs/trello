@@ -47,12 +47,12 @@ body {
   }
 }
 
-.lists {
+.boxes {
   display: flex;
   overflow-x: auto;
   //width: 100%; // This is needed for FF < 54
   > * {
-    flex: 0 0 auto; // 'rigid' lists
+    flex: 0 0 auto; // 'rigid' boxes
     margin-left: $gap;
   }
   &::after {
